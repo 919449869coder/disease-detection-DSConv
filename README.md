@@ -57,7 +57,8 @@ names:
   2: HI
 ## Step 9: YOLO train
 yolo task=detect mode=train model=yolov8s.yaml  data=yolov8-C2f-DySnakeConv.yaml epochs=100 batch=64 imgsz=640 pretrained=False optimizer=SGD 
-
+## Step 10: DSConv-GAN model application
+The application interface branch contains the application interface.zip file, which includes the application interface we developed.
 
 
 
